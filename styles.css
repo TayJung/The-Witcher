@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600;700 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./imagens/the\ witcher\ hell.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 122px;
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  margin-left: 45px;
+  margin: 45px;
+  float: left;
+  font-size: 24px;
+  font-weight: 400;
+  width: 230px;
+  height: 24px;
+}
+
+.caixa-cabeçalho {
+  width: 650px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 650px;
+  float: right;
+  margin: 45px;
+}
+
+.caixa-cabeçalho li {
+  color: #fff;
+  display: inline;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "montserrat", sans-serif;
+}
+
+.caixa-cabeçalho a:hover {
+  text-shadow: 2px 0.5px 0.3px rgb(224, 170, 134);
+  color: rgb(238, 85, 14);
+  transition: 2s ease-in;
+}
+
+.caixa-cabeçalho a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  display: inline;
+}
+
+.logo {
+  width: 54px;
+  height: 96px;
+  margin-left: 179px;
+  margin-top: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.caixa-um {
+  background-image: url("./imagens/the\ witcher\ kavil2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  width: 100vw;
+  height: 522px;
+  margin: 28px 460px;
+  opacity: 1;
+}
+
+.logo-witcher {
+  width: 234px;
+  height: 116px;
+  margin-left: 50px;
+  margin-top: 235px;
+}
+
+.logo-witcher:hover {
+  width: 265px;
+  height: 150px;
+  transition: 2s ease-in-out;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+
+.botao {
+  width: 200px;
+  margin-left: 75px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  transition: 2s ease-in-out;
+  width: 250px;
+  margin-left: 50px;
+}
